@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 
 namespace SportsAnalysis.Models
 {
-    public class FantasyLeagues
+    public class Sport
     {
-        public int fantasyTeamId { get; set; }
-        public string fantasyTeamName { get; set; }
-
+        public int Id { get; set; }
+        public string Code { get; set; }
+        public string Name { get; set; }
     }
 }

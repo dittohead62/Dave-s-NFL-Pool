@@ -1,0 +1,14 @@
+﻿@model  IEnumerable<SportsAnalysis.Models.Sport>
+@{ 
+    Layout = "_Layout";
+}
+    <h1>@ViewBag.Title</h1>
+
+@foreach (var sport in Model)
+{
+    <div>
+        <h2>@sport.Name</h2>
+        <h3>@sport.Code</h3>
+        <h3>@sport.Id</h3>
+    </div>
+}
